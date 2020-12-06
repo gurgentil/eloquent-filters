@@ -1,6 +1,6 @@
 <?php
 
-namespace Gurgentil\EloquentFilters\Tests;
+namespace Gurgentil\EloquentFilters\Test;
 
 use Gurgentil\EloquentFilters\ServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
