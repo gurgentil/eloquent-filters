@@ -1,0 +1,19 @@
+<?php
+
+namespace DummyNamespace;
+
+use Gurgentil\EloquentFilters\Filter;
+use Illuminate\Database\Eloquent\Builder;
+
+class DummyClass implements Filter
+{
+    /**
+     * Apply filter.
+     *
+     * @return Builder
+     */
+    public function apply(Builder $builder, $value)
+    {
+        return $query;
+    }
+}
