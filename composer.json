@@ -2,5 +2,8 @@
     "name": "gurgentil/eloquent-filters",
     "type": "library",
     "license": "MIT",
-    "require": {}
+    "require": {
+        "php": "^7.2|^8.0",
+        "illuminate/support": "^7.0|^8.0"
+    }
 }
