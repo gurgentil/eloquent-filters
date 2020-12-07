@@ -1,6 +1,9 @@
 name: Fix PHP styling
 
 on:
+  push:
+    paths:
+      - '**.php'
   pull_request:
     paths:
       - '**.php'
@@ -17,4 +20,4 @@ jobs:
         uses: docker://oskarstark/php-cs-fixer-ga
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "style: apply php-cs-fixer changes"
+          commit_message: 'style: apply php-cs-fixer changes'
