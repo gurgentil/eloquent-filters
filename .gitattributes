@@ -7,5 +7,6 @@
 /.gitignore         export-ignore
 /CHANGELOG.md       export-ignore
 /CONTRIBUTING.md    export-ignore
+/docker-compose.yml export-ignore
 /phpunit.xml.dist   export-ignore
 /tests              export-ignore
