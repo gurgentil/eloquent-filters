@@ -21,6 +21,13 @@ class MakeFilterCommand extends GeneratorCommand
     protected $description = 'Create a new filter class';
 
     /**
+     * The type of class being generated.
+     *
+     * @var string
+     */
+    protected $type = 'Filter';
+
+    /**
      * Get the stub file for the generator.
      *
      * @return string
