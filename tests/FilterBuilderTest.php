@@ -14,7 +14,7 @@ class FilterBuilderTest extends TestCase
     {
         parent::setUp();
 
-        $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
+        $this->loadMigrationsFrom(__DIR__ . '/Dummy/database/migrations');
 
         Dummy::create(['size' => 'large', 'color' => 'blue']);
         Dummy::create(['size' => 'small', 'color' => 'yellow']);
