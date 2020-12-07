@@ -1,5 +1,8 @@
 # Eloquent Filters
 
+[![Latest Version](https://img.shields.io/github/release/gurgentil/eloquent-filters.svg?style=flat-square)](https://github.com/gurgentil/eloquent-filters/releases)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/gurgentil/eloquent-filters/run-tests?label=tests)
+[![Quality Score](https://img.shields.io/scrutinizer/g/gurgentil/eloquent-filters.svg?style=flat-square)](https://scrutinizer-ci.com/g/gurgentil/eloquent-filters)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
 This package provides a nice and easy way to add query filters to your Eloquent models without turning your model 
