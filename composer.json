@@ -1,5 +1,18 @@
 {
     "name": "gurgentil/eloquent-filters",
+    "description": "A Laravel package to add query filters to your Eloquent models with ease",
+    "keywords": [
+        "laravel",
+        "eloquent",
+        "filters",
+        "query"
+    ],
+    "homepage": "https://github.com/gurgentil/eloquent-sequencer",
+    "authors": [
+        {
+            "name": "Gustavo Rorato Gentil"
+        }
+    ],
     "type": "library",
     "license": "MIT",
     "require": {
