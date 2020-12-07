@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Builder;
 
 class SizeFilter implements Filter
 {
-    public function apply(Builder $builder, $value)
+    public function apply(Builder $builder, $value): Builder
     {
         return $builder->where('size', $value);
     }

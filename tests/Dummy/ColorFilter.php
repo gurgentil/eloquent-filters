@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Builder;
 
 class ColorFilter implements Filter
 {
-    public function apply(Builder $builder, $value)
+    public function apply(Builder $builder, $value): Builder
     {
         return $builder->where('color', $value);
     }

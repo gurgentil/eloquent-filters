@@ -24,7 +24,7 @@ class FilterBuilderTest extends TestCase
     }
 
     /** @test */
-    public function it_applies_a_given_filter_to_the_query()
+    public function it_applies_a_given_filter_to_the_query(): void
     {
         $redDummies = (new DummyFilters)->apply(
             (new Dummy)->newModelQuery(),
@@ -37,7 +37,7 @@ class FilterBuilderTest extends TestCase
     }
 
     /** @test */
-    public function it_should_apply_all_filters_in_the_list()
+    public function it_should_apply_all_filters_in_the_list(): void
     {
         $redAndLargeDummies = (new DummyFilters)->apply(
             (new Dummy)->newModelQuery(),

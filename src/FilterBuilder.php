@@ -22,7 +22,7 @@ abstract class FilterBuilder implements Filter
      * @param array|null $filters
      * @return Builder
      */
-    public function apply(Builder $builder, $filters)
+    public function apply(Builder $builder, $filters): Builder
     {
         if (is_null($filters)) {
             return $builder;
@@ -43,7 +43,7 @@ abstract class FilterBuilder implements Filter
      * @param $filter
      * @return bool
      */
-    protected function filterExists($filter)
+    protected function filterExists($filter): bool
     {
         return array_key_exists($filter, $this->availableFilters);
     }
@@ -56,7 +56,7 @@ abstract class FilterBuilder implements Filter
      * @param $value
      * @return Builder
      */
-    protected function applyFilterQuery(Builder $builder, $filter, $value)
+    protected function applyFilterQuery(Builder $builder, $filter, $value): Builder
     {
         $filterClass = $this->availableFilters[$filter];
 

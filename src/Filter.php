@@ -13,5 +13,5 @@ interface Filter
      * @param mixed $value
      * @return Builder
      */
-    public function apply(Builder $builder, $value);
+    public function apply(Builder $builder, $value): Builder;
 }

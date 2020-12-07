@@ -7,7 +7,7 @@ use Gurgentil\EloquentFilters\Test\TestCase;
 class MakeFilterCommandTest extends TestCase
 {
     /** @test */
-    public function it_exits_with_status_0()
+    public function it_exits_with_status_0(): void
     {
         $this->artisan('make:filter TestFilter')
             ->assertExitCode(0);

@@ -12,7 +12,7 @@ class DummyClass implements Filter
      *
      * @return Builder
      */
-    public function apply(Builder $builder, $value)
+    public function apply(Builder $builder, $value): Builder
     {
         return $builder;
     }

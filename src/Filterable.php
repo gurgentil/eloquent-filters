@@ -13,7 +13,7 @@ trait Filterable
      * @param array|null $filters
      * @return Builder
      */
-    public function scopeFilter(Builder $builder, $filters)
+    public function scopeFilter(Builder $builder, $filters): Builder
     {
         $modelClass = class_basename($this);
         $builderClass = 'App\\Filters\\' . $modelClass . 'Filters';
