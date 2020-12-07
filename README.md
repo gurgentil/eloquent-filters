@@ -36,14 +36,8 @@ class UserFilters extends FilterBuilder
 }
 ```
 
-Add a scope to the model:
-
-```php
-public function scopeFilter($query, $filters)
-{
-    return (new UserFilters)->apply($query, $filters);
-}
-```
+Add the `Gurgentil\EloquentFilters\Filterable` trait to your model class. 
+The trait will look for a filter builder for the model inside `App\Filters`.
 
 ## Creating filters
 
