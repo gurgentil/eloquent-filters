@@ -4,7 +4,7 @@ namespace Gurgentil\EloquentFilters;
 
 use Illuminate\Database\Eloquent\Builder;
 
-abstract class FiltersBuilder implements Filter
+abstract class FilterBuilder implements Filter
 {
     /**
      * Filter maps.
