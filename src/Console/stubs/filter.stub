@@ -14,6 +14,6 @@ class DummyClass implements Filter
      */
     public function apply(Builder $builder, $value)
     {
-        return $query;
+        return $builder;
     }
 }
