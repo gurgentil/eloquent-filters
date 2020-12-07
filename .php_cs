@@ -23,6 +23,7 @@ return PhpCsFixer\Config::create()
         'phpdoc_scalar' => true,
         'unary_operator_spaces' => true,
         'binary_operator_spaces' => true,
+        'concat_space' => 'one',
         'phpdoc_single_line_var_spacing' => true,
         'phpdoc_var_without_name' => true,
         'method_argument_space' => [
