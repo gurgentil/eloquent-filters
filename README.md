@@ -85,6 +85,14 @@ class NameFilter implements Filter
 }
 ```
 
+You can perform filter queries on your model by passing a list of filters to the `filter` method:
+
+```php
+User::filter([
+    'name' => 'John',
+])->get();
+```
+
 ## Testing
 
 ``` bash
