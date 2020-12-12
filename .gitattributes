@@ -4,7 +4,9 @@
 # Ignore all test and documentation with "export-ignore".
 /.editorconfig      export-ignore
 /.gitattributes     export-ignore
+/.github            export-ignore
 /.gitignore         export-ignore
+/.php_cs            export-ignore
 /CHANGELOG.md       export-ignore
 /CONTRIBUTING.md    export-ignore
 /docker-compose.yml export-ignore
