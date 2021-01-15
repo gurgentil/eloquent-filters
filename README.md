@@ -47,7 +47,7 @@ The trait will look for a filter builder for the model inside `App\Filters`.
 Run the artisan command:
 
 ```bash
-php artisan make:filter Users\NameFilter
+php artisan make:filter Users/NameFilter
 ```
 
 Register the filter in the builder you created previously:
