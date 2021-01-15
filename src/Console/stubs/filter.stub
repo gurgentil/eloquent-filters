@@ -10,6 +10,8 @@ class DummyClass implements Filter
     /**
      * Apply filter.
      *
+     * @param Builder $builder
+     * @param mixed $value
      * @return Builder
      */
     public function apply(Builder $builder, $value): Builder
